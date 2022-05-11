@@ -1,0 +1,597 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.page1{
+    background-color: #223047;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #00fff0;
+    z-index: 3;
+}
+.header{
+    max-width: 1200px;
+    margin: auto;
+    background-color: #223047;
+    padding:20px ;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo .sub{
+    vertical-align: super;
+    margin-bottom: 7px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu ul{
+   display: flex;
+}
+.menu li a{
+    color: #fff;
+    text-decoration: none;
+    text-align: right;
+    margin-left: 30px;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu i{
+    color: #fff;
+    font-size: 10px;
+}
+.app{
+    display: flex;
+    align-items: center;
+}
+.app a{
+    background-color: #00fff0;
+    padding: 10px 20px;
+    border-radius: 7px;
+    margin-left: 15px;
+}
+.app a:hover{
+    cursor: pointer;
+}
+#podmeni {
+    position: absolute;
+    width: 80px;
+    background-color: #223047;
+    color: #fff;
+    display: none;
+}
+#podmeni a{
+    display: list-item;
+    text-align: left;
+}
+.showon{
+    display: block !important;
+}
+.show{
+   height: 72px !important; 
+}
+.buttonheader{
+    color: #fff;
+    text-align: right;
+    display: none;
+}
+.phoneRes{
+    margin: auto;
+    text-align: center;  
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.page1  {
+    transition: 1s !important;
+}
+.phoneRes a{
+    text-decoration: none;
+    flex-direction: column;
+    color: #FFF;
+}
+@media only screen and (max-width:768px){
+    .buttonheader{
+        display: block;
+    }
+    .menu{
+        margin-top: 20px;
+        display: none;
+    }
+    .menu ul{
+        flex-direction: column;
+        margin-left: 150px;
+    }
+}
+.page2background{
+    background-color: #223047;
+    border-top: 1px solid #fff;
+}
+.page2{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 200px;
+    padding-top: 200px;
+    max-width: 1100px;
+    margin: auto;
+   
+    color: #fff;
+}
+.content2{
+    max-width: 400px;
+}
+.content2 h1{
+    margin-bottom: 45px;
+}
+.content2 p{
+    margin-bottom: 45px;
+}
+.button2{
+    display: flex;
+}
+.button2 a{  
+    text-decoration: none;
+    margin-right: 40px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.firstButton{
+    background-color: #00fff0;
+    color: #223047;
+}
+.secondButton{
+    background-color: #223047;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.page2 img{
+    margin-bottom: -80px;
+}
+@media only screen and (max-width:768px){
+    .page2{
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+        padding-top: 150px;
+        height: 100%;
+        padding-bottom: 30px;
+        
+    }
+    .content2{
+        width: 80%;
+        margin: auto;
+    }
+    .content2 h1{
+        font-size: 20px;
+    }
+    .content2 p{
+        font-size: 18px;
+    }
+    .button2{
+        flex-direction: column;
+        max-width: 50%;
+        margin: auto;
+    }
+    .button2 a{
+       margin: 0;
+       margin-top: 10px;
+       z-index: 2;
+      text-align: center;
+     
+    }
+    .phonePage2{
+       display: none;
+    }
+
+}
+.page3{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+}
+.page3 h1{
+    color: #8a919d;
+    font-size: 25px;
+    max-width: 320px;
+    margin: auto;
+}
+.page3 .borderBottom{
+    width: 150px;
+    height: 5px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    border-bottom: 3px solid #00fff0;
+}
+.boxes{
+    display: flex;
+    max-width: 1100px;
+    margin: auto;
+}
+.box{
+    justify-content: space-between;
+    color: #233148;
+}
+.box img{
+   width: 80px;
+}
+.box h2{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.box p{
+    color: #8a919d;
+}
+.box:hover{
+    cursor: pointer;
+}
+@media only screen and (max-width:768px){
+    .box p{
+        font-size: small;
+        max-width: 200px;
+        margin: auto;
+    }
+    .boxes{
+        flex-direction: column;
+    }
+}
+.page4 div{
+    display: flex;
+}
+.page4 div div{
+    padding:100px 75px;
+    width: 50%;
+    background-color: #323a4d;
+    flex-direction: column;
+}
+.page4 .content{
+    background-color: #f5f6fa;
+}
+.page4 .content h1{
+    max-width: 300px;
+    margin-bottom: 50px;
+}
+.page4 .content p{
+    max-width: 500px;
+    font-size: 22px;
+}
+.page5 a{  
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 155px;
+}
+.page5 .sector1 {
+    display: flex;
+    max-width: 1100px;
+    margin: auto;
+    text-align: right;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.page5 .sector1 div{
+    width: 50%;
+}
+.page5 .sector1 .picture img {
+    margin-left: 55px
+}
+.page5 .content p{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 22px;
+}
+.page5 .sector2{
+    padding-top: 50px;
+    display: flex;
+   max-width: 1100px;
+    margin: auto;
+}
+.sector2 div{
+    margin-bottom: 15px;
+    width: 50%;
+}
+.sector2 .model1 div{
+    display: flex;
+    width: 80%;
+}
+.sector2 .model1{
+    padding: 20px 20px;
+    -webkit-box-shadow: 0px 0px 21px -4px rgba(0,0,0,0.95); 
+    box-shadow: 0px 0px 21px -4px rgba(0,0,0,0.95);
+    width: 100%;
+    margin-left: 70px;
+    transition: 0.2s;
+}
+.model1 i{
+ margin-right: 40px;
+  font-size: 30px;
+}
+.model1 h2{
+    font-size: 22px;
+    text-align: left;
+    
+}
+.model1 p{
+    display: none;
+}
+.model1:hover > p{
+    display: block;
+}
+.model1:hover{
+    cursor:pointer;
+    background-color: #00fff0;
+}
+@media only screen and (max-width:768px){
+        .page5 .sector2 .picture {
+            display: none;
+        }
+        .page5 .sector1 .picture  {
+            display: none;
+        }
+        .page5 .sector1 .content{
+            text-align: center;
+            margin: auto;
+        }
+        .page5 .sector2 .content{
+           max-width: 100%;
+            margin: auto;
+            
+        }
+        .page5 .sector2 .content div{
+            margin: 0;
+        }
+}
+.page6{
+    width: 100%;
+    background-color: #f5f6fa;
+    z-index: 1;
+    margin-top: -100px;
+}
+.page6 .all {
+    display: flex;
+    width: 1100px;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+.page6 .all .content{
+    padding-top: 60px;
+    text-align: right;
+    max-width: 550px;
+}
+.page6 h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.page6 span{
+    font-size: 20px;
+    color: #000;
+}
+.page6 .all i{
+    color: #00fff0;
+}
+.all p{
+    margin-top: 40px;
+    color: #8a919d;
+    font-size: 20px;
+}
+.all .picture img{
+    margin-bottom: -50px;
+    width: 495px;
+    margin-left: 55px;
+    height: 530px;
+}
+@media only screen and (max-width:768px){
+    .page6 .picture{
+        display: none;
+    }
+    .page6 .content{
+        padding: 50px 50px;
+        text-align: center !important;
+         max-width: 350px !important;
+    }
+   
+}
+.page7{
+    position: relative;
+    width: 100%;
+    background-color: #223047;
+    margin-top: -90px;
+    z-index: 2;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.page7 .content{
+    max-width: 800px;
+    color: #fff;
+    margin: auto;
+    text-align: center;
+}
+.page7 h2{
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.page7 p{
+    font-size: 20px;
+}
+.page8{
+    padding:  200px 0;
+}
+.page8 .content{
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+.page8 h2{
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+.page8 a{
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: #00fff0;
+    color: #000;
+    font-weight: bold;
+}
+.page9{
+    width: 100%;
+    background-color: #223047;
+    color: #00fff0;
+    padding: 150px 0;
+}
+.page9 .content{
+    max-width: 1000px;
+    margin: auto;
+    font-size: 22px;
+    text-align: center;
+}
+.page10{
+    background-color: #f5f6fa;
+}
+.page10 .all{
+    display: flex;
+}
+.page10 .all{
+    max-width: 1100px;
+    margin: auto;
+    padding: 150px 0;
+}
+.page10 .picture img{
+    margin: 0;
+}
+.page10 .all div{
+    max-width: 550px;
+    justify-content: space-between;
+}
+.page10 .content{
+    padding-top: 50px;
+    margin-left: 120px;
+}
+.page10 .content h1{
+    font-size: 45px;
+}
+.page10 .content p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+@media only screen and (max-width:768px){
+    .page10 .picture{
+        display: none;
+    }
+    .page10 .content{
+        max-width: 100% !important;
+        text-align: center;
+        margin: auto;
+    }
+}
+.page11{
+    padding-bottom: 100px;
+}
+.page11 .all{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+.page11 .button a{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #000;
+    padding: 30px 80px;
+    background-color: #00fff0;
+    font-weight: bold;
+    -webkit-box-shadow: 0px 0px 21px -4px #00fff0; 
+    box-shadow: 0px 0px 21px -4px #00fff0;
+}
+.page11 .button{
+    margin-top: -10px;
+    margin-bottom: 150px;
+}
+.page11 .button a:hover{
+    cursor: pointer;
+}
+.page11 .boxes{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.page11 .boxes .boxs h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.page11 .boxes .boxs a{
+    flex-direction: column;
+    line-break: normal;
+    margin-top: 15px;
+}
+.page11 .boxes .boxs span{
+    margin-top: 10px;
+}
+.page11 .sector p{
+    margin-bottom: 50px;
+} 
+.page11 .sector input{
+    width: 450px;
+    height:46px;
+    margin-right: 30px;
+    background-color: #f5f6fa;
+}
+.page11 .sector a{
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px 40px;
+    align-items: center;
+    height: 40px;
+    background-color: #00fff0;
+    color: #000;
+    vertical-align: middle;
+    font-weight: bold;
+}
+@media only screen and (max-width:768px){
+    .page11 .sector a{
+        display: block;
+        max-width: 200px;
+        margin: auto;
+        font-size: 20px;
+        margin-top:15px ;
+        padding:5px 20px;
+    }
+}
+.page12{
+    background-color: #223047;
+    padding: 25px 0;
+}
+.page12 .footer{
+    display: flex;
+}
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+}
+.footer div{
+    font-size: 20px;
+}
+.footer .year{
+    color: #00fff0;
+}
+.footer .social i{
+    margin-left: 25px;
+    color: #fff;
+    font-size: 22px;
+}
+@media only screen and (max-width:768px){
+    .page12{
+    padding: 25px 20px;
+    }
+}
